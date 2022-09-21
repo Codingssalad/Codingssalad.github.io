@@ -64,9 +64,6 @@ pyperclip.copy("Hello")
 driver.find_element_by_xpath('//*[@id="nx_query"]').send_keys(Keys.CONTROL + 'v') # 붙여넣기
 ```
 
-    C:\Users\QCELLS\AppData\Local\Temp\ipykernel_28168\705333455.py:2: DeprecationWarning: find_element_by_xpath is deprecated. Please use find_element(by=By.XPATH, value=xpath) instead
-      driver.find_element_by_xpath('//*[@id="nx_query"]').send_keys(Keys.CONTROL + 'v') # 붙여넣기
-    
 
 #### 당연히 CTRL + A 등과 같은 동작도 가능합니다.
 #### 지금 입력되어 있는 값을 모두 선택해보겠습니다!
@@ -75,9 +72,6 @@ driver.find_element_by_xpath('//*[@id="nx_query"]').send_keys(Keys.CONTROL + 'v'
 ```python
 driver.find_element_by_xpath('//*[@id="nx_query"]').send_keys(Keys.CONTROL + 'a') # 붙여넣기
 ```
-
-    C:\Users\QCELLS\AppData\Local\Temp\ipykernel_28168\3852222455.py:1: DeprecationWarning: find_element_by_xpath is deprecated. Please use find_element(by=By.XPATH, value=xpath) instead
-      driver.find_element_by_xpath('//*[@id="nx_query"]').send_keys(Keys.CONTROL + 'a') # 붙여넣기
     
 
 #### Keys.DELETE를 입력하면 지우기 동작이 됩니다.
